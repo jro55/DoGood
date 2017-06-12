@@ -4,11 +4,11 @@
 
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Router from './App/Components/Router/Router';
+import Navigator from './App/Components/Navigator/Navigator';
 
 export default class App extends React.Component {
   render() {
-    return <Router />;
+    return <Navigator />;
     // return (
     //   <View style={styles.container}>
     //     <Text>Open up App.js to start working on your app!</Text>
